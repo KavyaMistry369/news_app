@@ -25,6 +25,9 @@ Welcome to the News App! This application provides users with the latest headlin
     <img src="https://github.com/KavyaMistry369/news_app/assets/130814792/cfb23efa-d2f9-4e51-846a-b20216aab1bd" alt="Screenshot 6" width="250"/>
 </div>
 
+## Video
+
+https://github.com/KavyaMistry369/news_app/assets/130814792/b4c02eb4-6df5-4a4d-a64d-122f5e10024b
 
 ## Credits
 
