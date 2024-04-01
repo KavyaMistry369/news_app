@@ -1,4 +1,4 @@
-![iPad mini 8 3 - 1 (1)](https://github.com/KavyaMistry369/news_app/assets/130814792/a6f2bad8-4c1e-46bc-ba33-196c1c9a78b6)# News App Readme
+# News App Readme
 
 ![Banner Image](https://github.com/KavyaMistry369/news_app/assets/130814792/3e2c1bf8-c550-470f-9c90-e2ebbc023420)
 
@@ -14,16 +14,17 @@ Welcome to the News App! This application provides users with the latest headlin
 ## Screenshots
 
 <div align="center">
-    <img src="https://github.com/KavyaMistry369/chatgpt_clone/assets/130814792/c366723f-b337-44d1-bc88-4f2e0c3e510f" alt="Screenshot 1" width="250"/>
-    <img src="https://github.com/KavyaMistry369/chatgpt_clone/assets/130814792/5740dffc-294f-4c96-a593-aa5814076bed" alt="Screenshot 2" width="250"/>
-    <img src="https://github.com/KavyaMistry369/chatgpt_clone/assets/130814792/6ff8de51-d46a-4f54-b940-e44a93f67172" alt="Screenshot 3" width="250"/>
+    <img src="https://github.com/KavyaMistry369/news_app/assets/130814792/daa33d78-16b6-4e0a-909a-573629f930d1" alt="Screenshot 1" width="250"/>
+    <img src="https://github.com/KavyaMistry369/news_app/assets/130814792/8d20af03-0c89-4781-a0ff-c25a95721e57" alt="Screenshot 2" width="250"/>
+    <img src="https://github.com/KavyaMistry369/news_app/assets/130814792/737afdc0-f29c-4a32-bff3-ff5fc7ca52fe" alt="Screenshot 3" width="250"/>
 </div>
 <br/>
 <div align="center">
-    <img src="https://github.com/KavyaMistry369/chatgpt_clone/assets/130814792/525af0cb-a681-4dfc-8a7d-1e0f98c42cb9" alt="Screenshot 4" width="250"/>
-    <img src="https://github.com/KavyaMistry369/chatgpt_clone/assets/130814792/ace06cd2-f7bb-4727-8679-c3af82bd4771" alt="Screenshot 5" width="250"/>
-    <img src="https://github.com/KavyaMistry369/chatgpt_clone/assets/130814792/0c15425a-75cd-46d1-9e06-c23c62e5df44" alt="Screenshot 6" width="250"/>
+    <img src="https://github.com/KavyaMistry369/news_app/assets/130814792/026a3950-9bbc-466b-b197-608e0b51e2b0" alt="Screenshot 4" width="250"/>
+    <img src="https://github.com/KavyaMistry369/news_app/assets/130814792/077d3a1e-f1b5-4c1f-bb44-e3432d5017df" alt="Screenshot 5" width="250"/>
+    <img src="https://github.com/KavyaMistry369/news_app/assets/130814792/cfb23efa-d2f9-4e51-846a-b20216aab1bd" alt="Screenshot 6" width="250"/>
 </div>
+
 
 ## Credits
 
