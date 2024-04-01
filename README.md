@@ -1,4 +1,4 @@
-# News App Readme
+# News App 
 
 ![Banner Image](https://github.com/KavyaMistry369/news_app/assets/130814792/3e2c1bf8-c550-470f-9c90-e2ebbc023420)
 
