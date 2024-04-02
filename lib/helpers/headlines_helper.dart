@@ -6,12 +6,10 @@ class HeadlineHelper {
 
   static final HeadlineHelper headlineHelper = HeadlineHelper._();
 
-  String api =
-      "https://newsapi.org/v2/top-headlines?country=in&apiKey=02f306e2b0454d4c8a8c1a47c5a28e5d";
   List allHeadlines = [];
 
   Future<List?> getHeadlinesNews() async {
-    http.Response response = await http.get(Uri.parse(api));
+    http.Response response = await http.get(Uri.parse("https://newsapi.org/v2/top-headlines?country=in&apiKey=02f306e2b0454d4c8a8c1a47c5a28e5d"));
 
     if (response.statusCode == 200) {
       Map headlines = jsonDecode(response.body);
@@ -22,4 +20,18 @@ class HeadlineHelper {
       return null;
     }
   }
+
+  Future<List?> countryHeadlinesNews({required String select}) async {
+    http.Response response = await http.get(Uri.parse("https://newsapi.org/v2/top-headlines?country=$select&apiKey=02f306e2b0454d4c8a8c1a47c5a28e5d"));
+
+    if (response.statusCode == 200) {
+      Map headlines = jsonDecode(response.body);
+      allHeadlines = headlines['articles'];
+      print(allHeadlines);
+      return allHeadlines;
+    } else {
+      return null;
+    }
+  }
+
 }
