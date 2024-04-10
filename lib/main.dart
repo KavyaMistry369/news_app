@@ -3,9 +3,8 @@ import 'package:news_app/libraries.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
-  HeadlineHelper.headlineHelper.getHeadlinesNews();
   SearchHelper.searchHelper.getDefaultNews();
-
+  HeadlineHelper.headlineHelper.getHeadlinesNews();
   runApp(
     MultiProvider(
       providers: [
@@ -33,7 +32,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         useMaterial3: true,
-        brightness: Brightness.dark,
+        brightness: Provider.of<Pagecontroller>(context).isDark?Brightness.light:Brightness.dark,
         colorSchemeSeed: CupertinoColors.activeBlue,
       ),
       routes: {

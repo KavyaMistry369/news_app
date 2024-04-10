@@ -7,6 +7,7 @@ class HeadlineHelper {
   static final HeadlineHelper headlineHelper = HeadlineHelper._();
 
   List allHeadlines = [];
+  List allsetHeadlines = [];
 
   Future<List?> getHeadlinesNews() async {
     http.Response response = await http.get(Uri.parse("https://newsapi.org/v2/top-headlines?country=in&apiKey=02f306e2b0454d4c8a8c1a47c5a28e5d"));

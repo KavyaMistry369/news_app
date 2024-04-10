@@ -1,4 +1,7 @@
+import 'dart:developer';
+
 import 'package:flutter/cupertino.dart';
+import 'package:news_app/helpers/headlines_helper.dart';
 
 
 import '../helpers/world_helper.dart';
@@ -13,13 +16,24 @@ class Pagecontroller extends ChangeNotifier {
   PageController myPageController = PageController(initialPage: 0);
 
   int myIndex = 0;
+  bool isDark = false;
   country segmented = country.IN;
   category segment = category.business;
   selectCountry select = selectCountry.IN;
 
+   Pagecontroller(){
+     HeadlineHelper.headlineHelper.countryHeadlinesNews(select: selectCountry.IN.name);
+   }
 
-  void setCountry({required selectCountry val}){
+   void changeTheme(){
+     isDark=!isDark;
+     notifyListeners();
+   }
+
+  Future<void> setCountry({required selectCountry val})async{
     select = val;
+    log(val.name);
+    await HeadlineHelper.headlineHelper.countryHeadlinesNews(select: val.name);
     notifyListeners();
   }
 
